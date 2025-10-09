@@ -31,7 +31,7 @@ public class CombatantView : MonoBehaviour
             CurrentHealth = 0;
         }
         //Κά»χ¶―»­
-        //transform.DOShakePosition(0.2f, 0.5f);
+        transform.DOShakePosition(0.2f, 0.5f);
         UpdateHealthText();
     }
 }

@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class VFX : MonoBehaviour
 {
-    [SerializeField] private float destroyDelay = 0.5f; // 特效持续时间
+    [SerializeField] private float destroyDelay = 0.5f;
 
     void Start()
     {
-        // 特效播放完成后自动销毁
+        
         Destroy(gameObject, destroyDelay);
     }
 }

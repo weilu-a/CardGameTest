@@ -19,8 +19,6 @@ public class DamageSystem : MonoBehaviour
         foreach(var target in dealDamageGA.Targets)
         {
             target.Damage(dealDamageGA.Amount);
-            //ÊÜ¹¥»÷¶¯»­
-
             yield return new WaitForSeconds(0.15f);
             if(target.CurrentHealth <= 0)
             {
